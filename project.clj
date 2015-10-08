@@ -3,6 +3,7 @@
   :url "http://example.com/FIXME"
   :min-lein-version "2.0.0"
   :source-paths ["src/clj"]
+  :test-paths ["test/clj"]
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [slingshot "0.12.2"]
                  [twitter-api "0.7.8"]

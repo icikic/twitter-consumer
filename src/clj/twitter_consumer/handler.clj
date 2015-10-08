@@ -1,8 +1,8 @@
 (ns twitter-consumer.handler
   (:require [compojure.core :refer :all]
             [compojure.route :as route]
-	          [ring.util.response :refer [resource-response response content-type]]
-	          [ring.middleware.json :as middleware]
+            [ring.util.response :refer [resource-response response content-type]]
+            [ring.middleware.json :as middleware]
             [ring.middleware.defaults :refer [wrap-defaults api-defaults]]
             [twitter.api.restful :as twitter]
             [twitter-consumer.user :refer :all]
