@@ -1,6 +1,5 @@
 (defproject twitter-consumer "0.1.0-SNAPSHOT"
   :description "Simple http server"
-  :url "http://example.com/FIXME"
   :min-lein-version "2.0.0"
   :source-paths ["src/clj"]
   :test-paths ["test/clj"]
@@ -35,5 +34,4 @@
   :profiles {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
                                   [ring-mock "0.1.5"]]}}
   :repl-options {:init-ns twitter-consumer.handler }
-  ;:main twitter-consumer.handler
   )
